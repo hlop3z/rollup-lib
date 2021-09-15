@@ -1,0 +1,24 @@
+{
+  "name": "graphdj",
+  "version": "1.0.0",
+  "main": "dist/bundle.mjs",
+  "module": "dist/bundle.mjs",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-vue": "^7.17.0",
+    "rollup": "^1.29.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
