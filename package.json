@@ -1,8 +1,8 @@
 {
-  "name": "graphdj",
+  "name": "esm-module",
   "version": "1.0.0",
-  "main": "dist/bundle.mjs",
   "module": "dist/bundle.mjs",
+  "browser": "dist/bundle.js",
   "type": "module",
   "dependencies": {},
   "devDependencies": {
