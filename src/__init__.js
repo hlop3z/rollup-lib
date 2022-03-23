@@ -1,5 +1,3 @@
-import example from './example';
+import helloworld from "./helloworld";
 
-export default {
-  example,
-};
+export default helloworld

@@ -1,16 +1,14 @@
 {
-  "name": "esm-module",
+  "name": "maninja",
   "version": "1.0.0",
-  "module": "dist/bundle.mjs",
-  "browser": "dist/bundle.js",
-  "type": "module",
-  "dependencies": {},
+  "initFile": "src/__init__.js",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0",
     "eslint": "^8.7.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-vue": "^7.17.0",
-    "rollup": "^1.29.0"
+    "eslint-plugin-import": "^2.25.4"
   },
   "scripts": {
     "build": "rollup -c",

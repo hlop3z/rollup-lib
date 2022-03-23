@@ -1,3 +1,3 @@
-import Example from "../dist/bundle.mjs"
+const app = require("../dist/maninja.cjs.js")
 
-Example.example()
+app()

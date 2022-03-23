@@ -1,4 +1,5 @@
 # rollup-lib (ECMAScript — Module)
+
 > Forked from https://github.com/rollup/rollup-starter-lib
 
 ## Getting started
@@ -16,8 +17,6 @@ npm install
 `npm run dev` builds the library, then keeps rebuilding it whenever the source files change using [rollup-watch](https://github.com/rollup/rollup-watch).
 
 `npm test` builds the library, then tests it.
-
-
 
 ## License
 
