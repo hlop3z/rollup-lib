@@ -1,5 +1,5 @@
 {
-  "name": "maninja",
+  "name": "libname",
   "version": "1.0.0",
   "initFile": "src/__init__.js",
   "devDependencies": {
