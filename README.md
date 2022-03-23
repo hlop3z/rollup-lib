@@ -28,6 +28,21 @@ npm install
 
 ---
 
+## Docs (Python)
+
+```sh
+cd docs/
+python -m pipenv install
+```
+
+### Run
+
+```sh
+./run-docs.sh
+```
+
+---
+
 ## License
 
 [MIT](LICENSE).
