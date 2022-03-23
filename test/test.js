@@ -1,3 +1,3 @@
-const app = require("../dist/maninja.cjs.js")
+const app = require("../dist/project_name.cjs.js")
 
 app()

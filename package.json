@@ -1,5 +1,5 @@
 {
-  "name": "libname",
+  "name": "project_name",
   "version": "1.0.0",
   "initFile": "src/__init__.js",
   "devDependencies": {
